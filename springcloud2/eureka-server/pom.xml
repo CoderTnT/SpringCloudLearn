@@ -6,7 +6,7 @@
         <groupId>com.cooper</groupId>
         <artifactId>spring-cloud-2</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/>
+
     </parent>
 
     <groupId>com.cooper</groupId>
