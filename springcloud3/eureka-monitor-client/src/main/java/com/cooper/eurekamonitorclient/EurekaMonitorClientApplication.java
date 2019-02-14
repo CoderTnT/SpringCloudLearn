@@ -1,19 +1,18 @@
-package com.cooper.eurekaribbonclient;
+package com.cooper.eurekamonitorclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+import org.springframework.cloud.netflix.turbine.EnableTurbine;
 
 @SpringBootApplication
-@EnableEurekaClient
-@EnableHystrix
+@EnableTurbine
 @EnableHystrixDashboard
-public class EurekaRibbonClientApplication {
+public class EurekaMonitorClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaRibbonClientApplication.class, args);
+        SpringApplication.run(EurekaMonitorClientApplication.class, args);
     }
 
 }

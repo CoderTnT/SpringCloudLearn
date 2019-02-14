@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-feign-client" />
+        <module name="eureka-monitor-client" />
         <module name="eureka-ribbon-client" />
         <module name="eureka-server" />
         <module name="springcloud3" />
