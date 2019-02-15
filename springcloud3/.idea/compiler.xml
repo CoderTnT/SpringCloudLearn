@@ -11,6 +11,7 @@
         <module name="eureka-monitor-client" />
         <module name="eureka-ribbon-client" />
         <module name="eureka-server" />
+        <module name="eureka-zuul-client" />
         <module name="springcloud3" />
       </profile>
     </annotationProcessing>
